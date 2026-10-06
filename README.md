@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abhilash Potegaonkar | Frontend Developer Portfolio
 
-## Getting Started
+A polished personal portfolio website built with Next.js, React, TypeScript, and Tailwind CSS for a frontend developer specializing in ERP, SaaS, and scalable UI systems.
 
-First, run the development server:
+## Overview
+
+This portfolio presents:
+
+- professional background and career experience
+- selected project work and measurable impact
+- technical skills and certifications
+- contact links and downloadable CV
+- light/dark mode support
+- premium, responsive portfolio layout for desktop and mobile
+
+## Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- lucide-react
+
+## Features
+
+- Premium hero section with CTA buttons
+- About and professional summary sections
+- Experience timeline and project showcase
+- Skills grouping and certifications
+- Downloadable CV support
+- LinkedIn, GitHub, and email contact links
+- Responsive design with light/dark theme toggle
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Production Build
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is ready to deploy to platforms like Netlify or Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For Netlify, build with:
 
-## Deploy on Vercel
+```text
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+and deploy the generated project output using the platform's Next.js deployment settings.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+```text
+app/
+  globals.css
+  layout.tsx
+  page.tsx
+public/
+  Abhilash-Potegaonkar-CV.txt
+```
+
+## Contact
+
+- Email: abhilashpotegaonkar88@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhilash-potegaonkar-a210aa178
+- GitHub: https://github.com/Abhilash-Potegaonkar
+
+## Notes
+
+The content in this portfolio is based on the provided professional information and is intended for personal portfolio use and public-facing profile presentation.

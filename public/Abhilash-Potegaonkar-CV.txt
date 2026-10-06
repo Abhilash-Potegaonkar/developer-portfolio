@@ -1,0 +1,122 @@
+Abhilash Girish Potegaonkar
+Frontend Developer
+
+Location: Pune, India
+Email: abhilashpotegaonkar88@gmail.com
+LinkedIn: linkedin.com/in/abhilashpotegaonkara210aa178
+GitHub: github.com/Abhilash-Potegaonkar
+Professional status: Notice Period Completed
+
+Professional Summary
+Frontend Developer with 3+ years of experience building scalable ERP and SaaS systems across Transport, HRMS, and DMS domains.
+
+Led a Next.js/React major version migration that cut build time by approximately 47% and improved build stability by approximately 40%, with zero production downtime.
+
+Specialized in:
+- REST API integration
+- RBAC
+- Reusable component architecture
+- Form-heavy workflows
+- Frontend performance
+- Enterprise dashboards
+- Next.js applications
+- React applications
+
+Actively use AI tools such as Claude, GitHub Copilot and ChatGPT to accelerate delivery without compromising code quality.
+
+Skills
+Frontend:
+React.js, React Hooks, React 18/19, TypeScript, JavaScript ES6+, Next.js
+
+State Management:
+Zustand, Context API, Redux, Redux Toolkit
+
+UI & Styling:
+Material UI, shadcn/ui, Tailwind CSS, Responsive Design, Reusable Component Design
+
+Forms & Validation:
+React Hook Form, Zod, Complex Conditional Workflows
+
+Performance:
+Memoization, Lazy Loading, Code Splitting, Webpack, Turbopack, Tree Shaking
+
+Architecture:
+Microservice Frontend Integration, RBAC, Next.js SEO, Clean Code, Agile/Scrum
+
+Testing:
+Jest, React Testing Library, MSW / API Mocking
+
+CI/CD & Cloud:
+Azure App Service, Azure Static Web Apps, Azure DevOps, TeamCity, Git
+
+AI Tools:
+Claude, ChatGPT, GitHub Copilot, Cursor IDE, Codeium
+
+Experience
+Frontend Developer
+JUNO Software Systems Pvt. Ltd.
+June 2023 - June 2026
+Pune, India
+
+Responsibilities and achievements:
+- Built and maintained ERP web modules for Transport, HRMS and DMS serving 500+ internal users using React, TypeScript and Next.js.
+- Integrated REST APIs using parallel calls, shared async utility patterns and partial failure handling, reducing data-fetch errors by approximately 30% across modules.
+- Implemented admin dashboards with advanced filters, date pickers and RBAC supporting multiple user permission levels.
+- Improved frontend performance through component memoization, state batching and a shared design system using shadcn/ui, MUI and Tailwind CSS.
+- Applied SEO best practices in Next.js including semantic HTML, metadata handling and optimized page structure.
+- Collaborated with backend teams in a microservice architecture to align API contracts and deliver scalable solutions.
+- Participated in Agile/Scrum ceremonies including planning, standups and retrospectives.
+- Used AI-assisted tools including Claude, GitHub Copilot and ChatGPT for boilerplate generation, troubleshooting and code-quality improvements.
+
+Projects
+HR V2 - Attendance & Leave Management
+Technologies: React 19, Next.js 16, TypeScript, Tailwind CSS
+Highlights:
+- Led migration from Next.js 15.3.3 to Next.js 16.1.2 with React 19.2.3.
+- Reduced build time by approximately 47%.
+- Improved build stability by approximately 40%.
+- Achieved zero-downtime production deployment.
+- Developed attendance and leave modules.
+- Employee change manager with single and bulk operations.
+- Multi-view Monthly Muster Reports.
+- Biometric configuration screens.
+
+Transport Management System V2
+Technologies: React, TypeScript, Next.js, Google Maps API, MUI
+Highlights:
+- Designed vehicle booking workflows.
+- Implemented real-time route visualization.
+- Implemented stop-level tracking using Google Maps API.
+- Built vehicle entity management screens.
+- Supported complex fleet operation and master configuration mapping.
+
+Data Management System V2 (DMS)
+Technologies: React, TypeScript, Next.js, shadcn/ui
+Highlights:
+- Designed the Home Dashboard.
+- Added Quick Access for frequently used documents.
+- Reduced average navigation steps by approximately 35%.
+- Built Favourite Master.
+- Built My Files Master.
+- Created personalized and centralized document management functionality.
+
+Education
+PG-DAC
+C-DAC, Pune
+September 2022 - March 2023
+70%
+
+Post Graduate Diploma in Advanced Computing (Information Technology)
+
+B.E. Engineering
+College of Engineering Hadapsar, Pune
+2019
+65%
+
+Certifications
+- Claude Code 101 — Anthropic (July 2026)
+- Agents and Workflows — OpenAI Academy (July 2026)
+- Applied AI Foundations — OpenAI Academy (July 2026)
+
+Award
+Spot Performer Award — JUNO Software Systems (December 2024)
