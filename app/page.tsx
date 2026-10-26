@@ -631,7 +631,7 @@ export default function Home() {
           <SectionHeader
             eyebrow="Experience"
             title="Career timeline"
-            description="Core frontend ownership across ERP and SaaS products in a collaborative agile environment."
+            description="From enterprise frontend delivery to independent development of AI-powered SaaS products."
           />
 
           <div className="rounded-[2rem] border border-[var(--border)] bg-[var(--surface)] p-5 shadow-[0_20px_60px_rgba(2,6,23,0.16)] sm:p-7">
@@ -643,7 +643,29 @@ export default function Home() {
                   <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--surface-soft)] p-5 sm:ml-8">
                     <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
                       <div>
-                        <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">2023 — 2026</p>
+                        <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">July 2026 — Present</p>
+                        <h3 className="mt-2 text-2xl font-semibold text-[var(--text-strong)]">Independent AI Developer</h3>
+                        <p className="mt-2 text-base text-[var(--text-soft)]">Self-employed · Enterprise AI Copilot</p>
+                      </div>
+                      <span className="inline-flex rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 py-1 text-[0.68rem] uppercase tracking-[0.2em] text-[var(--text-soft)]">
+                        AI &amp; SaaS
+                      </span>
+                    </div>
+
+                    <ul className="mt-5 space-y-3 text-sm leading-7 text-[var(--text-soft)]">
+                      <li className="flex gap-3"><Check size={16} className="mt-1 shrink-0 text-[var(--accent-strong)]" /><span>Building Enterprise AI Copilot, a full-stack assistant with role-based access for Admin, HR, Manager, and Employee users.</span></li>
+                      <li className="flex gap-3"><Check size={16} className="mt-1 shrink-0 text-[var(--accent-strong)]" /><span>Developing AI chat with streaming responses and Retrieval-Augmented Generation (RAG), embeddings, and vector search for knowledge-grounded answers.</span></li>
+                      <li className="flex gap-3"><Check size={16} className="mt-1 shrink-0 text-[var(--accent-strong)]" /><span>Applying server-side session and request validation, rate limiting, and modular integration with local LLM providers.</span></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="relative">
+                  <div className="absolute -left-2 top-1 hidden h-4 w-4 rounded-full border-4 border-[var(--bg)] bg-[var(--accent)] sm:block" />
+                  <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--surface-soft)] p-5 sm:ml-8">
+                    <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                      <div>
+                        <p className="text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">2023 — June 2026</p>
                         <h3 className="mt-2 text-2xl font-semibold text-[var(--text-strong)]">Frontend Developer</h3>
                         <p className="mt-2 text-base text-[var(--text-soft)]">JUNO Software Systems Pvt. Ltd.</p>
                       </div>
@@ -671,6 +693,65 @@ export default function Home() {
             title="Selected work"
             description="Professional system work spanning enterprise operations, dashboards and highly interactive workflow products."
           />
+
+          <article className="mb-8 overflow-hidden rounded-[2rem] border border-[var(--border)] bg-[linear-gradient(135deg,var(--bg-elevated),var(--surface-strong))] p-5 shadow-[0_25px_80px_rgba(2,6,23,0.2)] sm:p-7">
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 py-1 text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-[var(--text)]">
+                Full-Stack AI
+              </span>
+              <span className="text-sm text-[var(--muted)]">Enterprise SaaS · RAG</span>
+            </div>
+
+            <div className="mt-5 grid gap-8 xl:grid-cols-[1.2fr_0.8fr]">
+              <div>
+                <h3 className="text-2xl font-semibold text-[var(--text-strong)] sm:text-3xl">Enterprise AI Copilot</h3>
+                <p className="mt-4 max-w-3xl text-sm leading-7 text-[var(--text-soft)]">
+                  An enterprise AI assistant built with Next.js and TypeScript, featuring secure authentication, role-based access control, employee directory management, AI-powered chat, and Retrieval-Augmented Generation (RAG).
+                </p>
+
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {["Next.js", "React", "TypeScript", "Auth.js", "Prisma", "PostgreSQL", "RAG", "AI/LLM integration", "Tailwind CSS", "shadcn/ui"].map((tech) => (
+                    <span key={tech} className="rounded-full border border-[var(--border)] bg-[var(--surface)] px-2.5 py-1 text-[11px] text-[var(--text-soft)]">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                <ul className="mt-6 space-y-3 text-sm leading-7 text-[var(--text-soft)]">
+                  {[
+                    "Authentication and role-based access control for Admin, HR, Manager, and Employee roles.",
+                    "Secure employee directory with role-based data access.",
+                    "AI chat with streaming responses over Server-Sent Events (SSE) and RAG-powered knowledge answers.",
+                    "Embeddings and vector search integration for knowledge retrieval.",
+                    "Server-side session validation, request validation, and rate limiting.",
+                    "Modular AI integration with the existing local LLM/provider architecture.",
+                  ].map((point) => (
+                    <li key={point} className="flex gap-3">
+                      <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[var(--accent)]" />
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="flex min-h-64 flex-col justify-center rounded-[1.5rem] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_18px_60px_rgba(5,8,18,0.18)] sm:p-8">
+                <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-[var(--border)] bg-[var(--accent-soft)] text-[var(--accent-strong)]">
+                  <BrainCircuit size={34} strokeWidth={1.6} aria-hidden="true" />
+                </div>
+                <p className="mt-6 text-[0.68rem] font-semibold uppercase tracking-[0.22em] text-[var(--muted)]">Enterprise AI Copilot</p>
+                <div className="mt-4 flex flex-wrap items-center gap-2 text-xs font-medium text-[var(--text-soft)]">
+                  <span className="rounded-full border border-[var(--border)] bg-[var(--surface-soft)] px-3 py-2">Employee question</span>
+                  <ArrowUpRight size={14} className="text-[var(--accent-strong)]" aria-hidden="true" />
+                  <span className="rounded-full border border-[var(--border)] bg-[var(--surface-soft)] px-3 py-2">Knowledge retrieval</span>
+                  <ArrowUpRight size={14} className="text-[var(--accent-strong)]" aria-hidden="true" />
+                  <span className="rounded-full border border-[var(--border)] bg-[var(--surface-soft)] px-3 py-2">AI response</span>
+                </div>
+                <p className="mt-5 text-sm leading-6 text-[var(--text-soft)]">
+                  Role-aware assistance grounded in enterprise knowledge.
+                </p>
+              </div>
+            </div>
+          </article>
 
           <article className="overflow-hidden rounded-[2rem] border border-[var(--border)] bg-[linear-gradient(135deg,var(--bg-elevated),var(--surface-strong))] p-5 shadow-[0_25px_80px_rgba(2,6,23,0.26)] sm:p-7">
             <div className="flex flex-wrap items-center gap-3">
@@ -762,6 +843,7 @@ export default function Home() {
               </article>
             ))}
           </div>
+
         </section>
 
         <section id="certifications" className="scroll-mt-24 py-20">
